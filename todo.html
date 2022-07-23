@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <style>
+        #container
+        {
+            width:33vw;
+            margin: 4rem auto;
+            font-family:'Courier New', Courier, monospace;
+        }
+        input[type="text"]
+        {
+            height:50%;
+            width:100%;
+            font-size: 20px;
+
+        }
+        li{
+            list-style: none;
+            font-size: 30px;
+        }
+        input[type="checkbox"]
+        {
+            zoom:2;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <input id="userinput" type="text" placeholder="Enter your todo"/>
+        <ul id="todolist">
+            <li>
+                <input id="1" type="checkbox"/>
+               <label for="1"> wake up</label>
+            </li>
+            <li>
+                <input id="2" type="checkbox"/>
+                <label for="2">Brush</label>
+            </li>
+        </ul>
+
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
